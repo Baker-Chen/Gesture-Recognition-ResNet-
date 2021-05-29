@@ -11,8 +11,9 @@ In the post pandemic era, zero-contact technology has become a trend. Among them
 ## Folder Descriotion:
 File Name | description
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+numberGestureRecognition| for auto-labeling hand recognion module
+trainingModel | ResNet50 network & weight
+animation | elevator animation
 
 ## Contents:
 * Auto-labeling module: MediaPipe
