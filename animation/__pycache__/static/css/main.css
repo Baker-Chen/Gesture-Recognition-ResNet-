@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.elev {
+    position: relative;
+    border: 80px solid white;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+#door_left{
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 90px;
+    /* animation: example2 2s linear infinite alternate;
+    animation-delay: infinite; */
+}
+#door_right{
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 315px;
+    /* animation: example1 2s linear infinite alternate;
+    animation-delay: infinite; */
+}
+.door img{
+    width: 273px;
+}
+
+
+@keyframes example1 {
+    from {transform: translate(0%, 0%);}
+    to {transform: translate(70%, 0%);}
+}
+@keyframes example2 {
+    from {transform: translate(0%, 0%);}
+    to {transform: translate(-70%, 0%);}
+}
+
+.sign {
+    position: absolute;
+    z-index: 3;
+    top: 60px;
+    left: 300px;
+    opacity: 0;
+}
+.sign img {
+    height: 27px;    
+}
+
+.number {
+    position: absolute;
+    z-index: 3;
+    opacity: 0.8;
+}
+.number img {
+    height: 40px;
+}
+#num_top{
+    top: 55px;
+    left: 360px;
+}
+#num_side{
+    top: 170px;
+    left: 570px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100px;
+    z-index: 6;
+}
