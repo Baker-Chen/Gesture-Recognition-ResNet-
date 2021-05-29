@@ -8,6 +8,12 @@
 WE-I Goose • Smith
 ## Project Description:
 In the post pandemic era, zero-contact technology has become a trend. Among them, the elevator is beneficial to the spread of the virus, because the elevator space is small, closed and crowded. It is easy to infect because people contact the elevator control panel and talk to each other in the elevator. So we wanted to achieve a smart elevator control panel that can recognize the specific gestures and always-on system through the benefits of Himax WE-I Plus ultra-low power consumption and AI acceleration, and reduce  operation complexity and overall power consumption through a distributed computing architecture of edge computing. First, with the help of OpenCV, convert the collected training data into the output form of the WE-I Plus lens module (single-channel grayscale 640x480 image), and use the gesture recognition algorithm to classify the data we collected and reduce the complexity of  training model. Then use the TensorFlow Lite machine learning framework to train the gesture recognition model.
+## Folder Descriotion:
+File Name | description
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 ## Contents:
 * Auto-labeling module: MediaPipe
  ![image](https://user-images.githubusercontent.com/85024328/120074141-08e5b580-c0ce-11eb-8b37-c051b1601184.png)
